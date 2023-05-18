@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>Austin Lockwood</title>
+    </head>
+
+    <body>
+        <div class="heading">
+            <h1 class="typed">>Austin Lockwood</h1>
+
+            <div class="social">
+                <a href="">
+                    <p>LinkedIn</p>
+                </a>
+                <a href="">
+                    <p>Github</p>
+                </a>
+                <a href="">
+                    <p>CodersRank</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <a href="">
+                <h3 class="typed">>About</h3>
+            </a>
+            <a href="">
+                <h3 class="typed">>Web Development</h3>
+            </a>
+            <a href="">
+                <h3 class="typed">>Apps</h3>
+            </a>
+            <a href="">
+                <h3 class="typed">>Resume</h3>
+            </a>
+        </div>
+
+        <section class="main-body">
+            <div class="bio">
+                <h2>Biography</h2>
+                <p>
+                    Add text here for bio
+                </p>
+                <img src="i/avatar.jpg" alt="avatar">
+            </div>
+
+
+            <div class="widgets">
+                <codersrank-activity
+                    username="AustinCL97"
+                    legend="true"
+                    labels
+                    tooltip step="5"
+                ></codersrank-activity>
+                <codersrank-skills-chart
+                    username="AustinCL97"
+                    labels
+                    tooltip
+                    skills="JavaScript,CSS,HTML,Python"
+                    svg-width="1120"
+                    svg-height="400"
+                ></codersrank-skills-chart>
+            </div>
+        </section>
+
+        <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+        <script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+    </body>
+</html>
